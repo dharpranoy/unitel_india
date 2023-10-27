@@ -1,7 +1,7 @@
 import GameTheme from './components/GameTheme.jsx';
 import Home from './components/Home.jsx';
 import Office from './components/Office.jsx';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
