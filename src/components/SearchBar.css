@@ -1,13 +1,13 @@
 
 
 ::selection {
-   background: #212129;
+   background: #2F2129;
 }
 
 .search-wrapper {
     position: absolute;
     transform: translate(-50%, -50%);
-    top:4%;
+    top:4.6%;
     left:25%;
     display: flex;
     justify-content: baseline;
@@ -34,7 +34,6 @@
     padding:0px 70px 0 20px;
     opacity: 0;
     position: absolute;
-    top:2px;
     left:0px;
     background: transparent;
     box-sizing: border-box;

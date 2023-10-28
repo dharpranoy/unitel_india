@@ -9,11 +9,13 @@ function Carousel() {
   const images = [
     'ban1.webp',
     'ban2.webp',
+    'ban3.webp',
+    'ban4.jpg'
   ];
 
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 900,
     slidesToShow: 1,
@@ -24,14 +26,13 @@ function Carousel() {
   };
 
   const imgStyle = {
-    maxWidth: '100%',
-    height: '600px',
-    margin: '0 auto',
+    width: '100%',
+    height: '90vh',
     objectFit: 'cover'
   };
   return (
     <>
-      <div style={{ padding: '1rem', marginLeft: '4rem', marginRight: '4rem' }}>
+      <div style={{ paddingTop: '1rem', marginLeft: '4.4rem' }}>
         <Slider {...settings}>
           {images.map((image, index) => (
             <div key={index}>
