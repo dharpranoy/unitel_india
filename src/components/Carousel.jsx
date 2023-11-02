@@ -3,6 +3,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import './Carousel.css';
 
 function Carousel() {
 
@@ -32,14 +33,20 @@ function Carousel() {
   };
   return (
     <>
-      <div style={{ paddingTop: '1rem', marginLeft: '4.4rem' }}>
-        <Slider {...settings}>
-          {images.map((image, index) => (
-            <div key={index}>
-              <img src={image} style={imgStyle} alt={`Slide ${index + 1}`} />
-            </div>
-          ))}
-        </Slider>
+      <div className="banner-outer" >
+        <div style={{ paddingTop: '1rem', marginLeft: '5.7rem', width: '65vw' }}>
+          <Slider {...settings}>
+            {images.map((image, index) => (
+              <div key={index}>
+                <img src={image} style={imgStyle} alt={`Slide ${index + 1}`} />
+              </div>
+            ))}
+          </Slider>
+        </div>
+        <div style={{ paddingTop: '1rem' }}>
+          <img style={{ height: '90vh', objectFit: 'cover' }} src="sideoffer.webp" />
+        </div>
+
       </div>
     </>
   )

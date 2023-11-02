@@ -1,0 +1,12 @@
+.banner-outer {
+  display: flex;
+  justify-content: space-around;
+}
+.react-slider .slider-handle {
+  outline: none;
+  border: none;
+}
+.react-slider .slider-track {
+  outline: none;
+  border: none;
+}
