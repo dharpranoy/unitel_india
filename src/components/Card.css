@@ -31,7 +31,6 @@ width: 14rem;
   justify-content: space-evenly;
   padding-left: 7rem;
   padding-right: 3rem;
-  overflow-x: scroll;
   padding-bottom: 2rem;
 }
 .card > div > img {
