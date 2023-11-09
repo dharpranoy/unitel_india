@@ -6,20 +6,22 @@
     margin:0.6rem;
     border-radius: 1rem;
    cursor: pointer; 
+   border: 0px;
+   outline: none;
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
 }
 
-.container {
+.container1 {
   padding: 2px 16px;
   background-color: black;
   color: white;
-
+border: none;
 
 }
-.container > h6 {
+.container1 > h6 {
   text-overflow: ellipsis;
 overflow: hidden;
 white-space: nowrap;
@@ -32,6 +34,7 @@ width: 14rem;
   padding-left: 7rem;
   padding-right: 3rem;
   padding-bottom: 2rem;
+  border:none;
 }
 .card > div > img {
   width: 16rem;

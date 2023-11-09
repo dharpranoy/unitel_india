@@ -48,7 +48,7 @@ Areal Alien ❥ 雷克斯
 html, body {
     margin: 0;
     width: 100%;
-    color: hsl(var(--text-primary));
+    color: grey;
     font-family: var(--font-main);
     background-color: hsl(var(--background));
     -webkit-font-smoothing: antialiased;

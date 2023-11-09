@@ -6,6 +6,7 @@ import Carousel from "./Carousel.jsx";
 import './Home.css';
 import Featured from './Featured.jsx';
 import Card from "./Card.jsx";
+import Footer from "./Footer.jsx";
 function Home() {
   return (
     <>
@@ -22,7 +23,7 @@ function Home() {
       <Featured text="Diwali Offers on Student laptops" /><div>
         <Card />
       </div>
-
+      <Footer />
     </>
   )
 }
