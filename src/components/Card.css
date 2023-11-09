@@ -76,3 +76,23 @@ width: 14rem;
   font-family: 'Roboto', sans-serif;
   box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
 }
+
+
+@media screen and (max-width:900px) {
+  .card-outer {
+  
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  overflow-x:scroll;
+    scroll-snap-type: x mandatory; /* Enable snap scrolling */
+    -webkit-overflow-scrolling: touch;
+  }
+  .card-container {
+    width: 75vw;
+  }
+  .card {
+    position: none;
+  }
+}

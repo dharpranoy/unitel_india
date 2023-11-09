@@ -10,12 +10,11 @@ function SearchBar() {
   return (
     <>
       <div className="search-wrapper active">
-        <div style={{ padding: '0.5rem' }}>
+        <div id="iconf" style={{ padding: '0.5rem' }}>
           <FontAwesomeIcon icon={faSearch} />
         </div>
         <div className="input-holder">
           <input type="text" className="search-input" placeholder="Type to search" />
-
         </div>
       </div>
     </>

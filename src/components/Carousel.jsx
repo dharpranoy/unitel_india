@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import 'font-awesome/css/font-awesome.min.css';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -26,26 +26,41 @@ function Carousel() {
     autoplay: true,
   };
 
-  const imgStyle = {
-    width: '100%',
-    height: '90vh',
-    objectFit: 'cover'
-  };
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 900);
+    };
+
+    handleResize(); // Initial check
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+
+
+
   return (
     <>
       <div className="banner-outer" >
-        <div style={{ paddingTop: '1rem', marginLeft: '5.7rem', width: '65vw' }}>
+        <div className="banner-inner" >
           <Slider {...settings}>
             {images.map((image, index) => (
-              <div key={index}>
-                <img src={image} style={imgStyle} alt={`Slide ${index + 1}`} />
+              <div id="slide" key={index}>
+                <img className="slider-img" src={image} alt={`Slide ${index + 1}`} />
               </div>
             ))}
           </Slider>
         </div>
-        <div style={{ paddingTop: '1rem' }}>
+        {!isMobile ? <div style={{ paddingTop: '1rem' }}>
           <img style={{ height: '90vh', objectFit: 'cover' }} src="sideoffer.webp" />
-        </div>
+        </div> : <></>}
 
       </div>
     </>
