@@ -111,8 +111,8 @@ function SideBar() {
                 <img src="logo.png" height={52} width={52} style={{ margin: '1rem' }} />
               </a>
 
-
-              <span className="link-text" style={{ color: 'white', fontSize: '1.2rem' }}>Unitel India</span>
+              <h3 style={{ width: '3rem' }}>Unitel India</h3>
+              <span className="link-text1" style={{ color: 'white', fontSize: '1.2rem' }}>Unitel India</span>
             </li>
             <li className="navbar-item flexbox-left">
 
@@ -122,7 +122,7 @@ function SideBar() {
                 <div className="navbar-item-inner-icon-wrapper flexbox">
                   <ion-icon name="search-outline"></ion-icon>
                 </div>
-                <span className="link-text">Search</span>
+                <span className="link-text1">Search</span>
               </a>
             </li>
             <li className="navbar-item flexbox-left">
@@ -132,7 +132,7 @@ function SideBar() {
                 <div className="navbar-item-inner-icon-wrapper flexbox">
                   <ion-icon name="home-outline"></ion-icon>
                 </div>
-                <span className="link-text">Home</span>
+                <span className="link-text1">Home</span>
               </a>
             </li>
             <li className="navbar-item flexbox-left">
@@ -142,7 +142,7 @@ function SideBar() {
                 <div className="navbar-item-inner-icon-wrapper flexbox">
                   <ion-icon name="folder-open-outline"></ion-icon>
                 </div>
-                <span className="link-text">Shop</span>
+                <span className="link-text1">Shop</span>
               </a>
             </li>
             <li className="navbar-item flexbox-left">
@@ -152,7 +152,7 @@ function SideBar() {
                 <div className="navbar-item-inner-icon-wrapper flexbox">
                   <ion-icon name="pie-chart-outline"></ion-icon>
                 </div>
-                <span className="link-text">Gaming</span>
+                <span className="link-text1">Gaming</span>
               </a>
             </li>
             <li className="navbar-item flexbox-left">
@@ -162,7 +162,7 @@ function SideBar() {
                 <div className="navbar-item-inner-icon-wrapper flexbox">
                   <ion-icon name="chatbubbles-outline"></ion-icon>
                 </div>
-                <span className="link-text">Support</span>
+                <span className="link-text1">Support</span>
               </a>
             </li>
 

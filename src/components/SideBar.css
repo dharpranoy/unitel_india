@@ -452,7 +452,7 @@ select {
     }
 }
 @media screen and (max-width: 900px) {
-    .link-text {
+    .link-text1 {
         color: white;
     }
 }
