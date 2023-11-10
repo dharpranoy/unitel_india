@@ -7,7 +7,7 @@
   margin-left: 5.7rem;
   width: 65vw;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
  .banner-inner { 
   padding: 0; 
   margin: 0;
@@ -17,7 +17,7 @@
   #slide > img {
     height: 300px;
     padding: 0.7rem;
-    margin: none;
+    margin: 0;
   }
 }
 .react-slider .slider-handle {

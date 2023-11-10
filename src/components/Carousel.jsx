@@ -24,6 +24,7 @@ function Carousel() {
     centerMode: true,
     centerPadding: '0',
     autoplay: true,
+    withbars: false,
   };
 
 
