@@ -84,7 +84,8 @@ width: 14rem;
     margin: 0;
     padding: 0;
     display: grid;
-     grid-template-columns: repeat(2, calc(50% - 10px));gap: 20px;
+     grid-template-columns: repeat(2, calc(50% - 15px));
+     gap: 20px;
     scroll-snap-type: x mandatory; /* Enable snap scrolling */
     -webkit-overflow-scrolling: touch;
     padding:15px;
