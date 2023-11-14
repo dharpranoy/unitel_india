@@ -6,22 +6,35 @@ import './SideBar.css';
 function SideBar() {
 
   const [isMobile, setIsMobile] = useState(false);
-
+  const [isSticky, setIsSticky] = useState(false);
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 900);
     };
+    const handleScroll = () => {
+      const offset = window.scrollY;
 
+      if (offset > 50) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
     handleResize(); // Initial check
 
     window.addEventListener('resize', handleResize);
-
+    window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('resize', handleResize);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
+  const [isChecked, setIsChecked] = useState(false);
 
+  const handleToggleChange = () => {
+    setIsChecked(!isChecked); // Toggle the state
+  };
 
 
   return (
@@ -94,8 +107,8 @@ function SideBar() {
 
 
         <div className="hamburger-menu">
-          <input id="menu__toggle" type="checkbox" />
-          <label className="menu__btn" for="menu__toggle">
+          <input id="menu__toggle" type="checkbox" checked={isChecked} onChange={handleToggleChange} />
+          <label className="menu__btn" for="menu__toggle" style={{ position: isChecked ? 'fixed' : 'absolute' }}>
             <span></span>
           </label>
 
@@ -111,14 +124,14 @@ function SideBar() {
                 <img src="logo.png" height={52} width={52} style={{ margin: '1rem' }} />
               </a>
 
-              <h3 style={{ width: '3rem' }}>Unitel India</h3>
-              <span className="link-text1" style={{ color: 'white', fontSize: '1.2rem' }}>Unitel India</span>
+              <h3 style={{ width: '13rem' }}>Unitel India</h3>
             </li>
-            <li><a className="menu__item" href="/">Home</a></li>
-            <li><a className="menu__item" href="#">About</a></li>
-            <li><a className="menu__item" href="#">Team</a></li>
-            <li><a className="menu__item" href="#">Contact</a></li>
-            <li><a className="menu__item" href="#">Twitter</a></li>
+            <li><a style={{ color: 'wheat' }} className="menu__item" href="/">Home</a></li>
+            <li><a style={{ color: 'wheat' }} className="menu__item" href="#">About</a></li>
+            <li><a style={{ color: 'wheat' }} className="menu__item" href="#">Shop</a></li>
+            <li><a style={{ color: 'wheat' }} className="menu__item" href="#">Contact</a></li>
+            <li><a style={{ color: 'wheat' }} className="menu__item" href="#">Support</a></li>
+            <li><a style={{ color: 'wheat' }} className="menu__item" href="#">Gaming</a></li>
 
 
 
