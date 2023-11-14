@@ -103,7 +103,7 @@ function SideBar() {
 
 
 
-          <ul className="menu__box">
+          <ul className="menu__box mobilebox">
 
 
             <li className="navbar-logo flexbox-left">
@@ -114,58 +114,11 @@ function SideBar() {
               <h3 style={{ width: '3rem' }}>Unitel India</h3>
               <span className="link-text1" style={{ color: 'white', fontSize: '1.2rem' }}>Unitel India</span>
             </li>
-            <li className="navbar-item flexbox-left">
-
-              <a className="navbar-item-inner flexbox-left" style={{ height: '3.7rem' }}>
-                <img src="search.png" height={42} width={42} style={{ margin: '0.5rem' }} />
-
-                <div className="navbar-item-inner-icon-wrapper flexbox">
-                  <ion-icon name="search-outline"></ion-icon>
-                </div>
-                <span className="link-text1">Search</span>
-              </a>
-            </li>
-            <li className="navbar-item flexbox-left">
-              <a className="navbar-item-inner flexbox-left" style={{ height: '3.7rem' }}>
-
-                <img src="home.png" height={42} width={42} style={{ margin: '0.5rem' }} />
-                <div className="navbar-item-inner-icon-wrapper flexbox">
-                  <ion-icon name="home-outline"></ion-icon>
-                </div>
-                <span className="link-text1">Home</span>
-              </a>
-            </li>
-            <li className="navbar-item flexbox-left">
-              <a className="navbar-item-inner flexbox-left" style={{ height: '3.7rem' }}>
-
-                <img src="shopping-bag.png" height={42} width={42} style={{ margin: '0.5rem' }} />
-                <div className="navbar-item-inner-icon-wrapper flexbox">
-                  <ion-icon name="folder-open-outline"></ion-icon>
-                </div>
-                <span className="link-text1">Shop</span>
-              </a>
-            </li>
-            <li className="navbar-item flexbox-left">
-              <a className="navbar-item-inner flexbox-left" href="/gaming" style={{ height: '3.7rem' }}>
-
-                <img src="gamepad.png" height={42} width={42} style={{ margin: '0.5rem' }} />
-                <div className="navbar-item-inner-icon-wrapper flexbox">
-                  <ion-icon name="pie-chart-outline"></ion-icon>
-                </div>
-                <span className="link-text1">Gaming</span>
-              </a>
-            </li>
-            <li className="navbar-item flexbox-left">
-              <a className="navbar-item-inner flexbox-left" style={{ height: '3.7rem' }}>
-
-                <img src="mechanism.png" height={42} width={42} style={{ margin: '0.5rem' }} />
-                <div className="navbar-item-inner-icon-wrapper flexbox">
-                  <ion-icon name="chatbubbles-outline"></ion-icon>
-                </div>
-                <span className="link-text1">Support</span>
-              </a>
-            </li>
-
+            <li><a className="menu__item" href="/">Home</a></li>
+            <li><a className="menu__item" href="#">About</a></li>
+            <li><a className="menu__item" href="#">Team</a></li>
+            <li><a className="menu__item" href="#">Contact</a></li>
+            <li><a className="menu__item" href="#">Twitter</a></li>
 
 
 

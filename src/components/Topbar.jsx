@@ -34,7 +34,7 @@ function Topbar() {
           <div>
             <nav role="navigation" className="primary-navigation">
               <ul>
-                <li><a href="#">Contact us</a>
+                <li><a href="/contact">Contact us</a>
                 </li>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Store locator</a></li>
