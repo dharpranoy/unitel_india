@@ -4,6 +4,7 @@ import Office from './components/Office.jsx';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import './App.css'
 import Contact from './components/Contact.jsx';
+import StoreLocator from './components/StoreLocator.jsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/office" element={<Office />} />
 
       <Route path="/contact" element={<Contact />} />
+      <Route path="/stores" element={<StoreLocator />} />
     </Routes>
 
   );

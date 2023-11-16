@@ -51,7 +51,7 @@ function SideBar() {
           </li>
           <li className="navbar-item flexbox-left">
 
-            <a className="navbar-item-inner flexbox-left" style={{ height: '3.7rem' }}>
+            <a className="navbar-item-inner flexbox-left" style={{ height: '3.7rem' }} href="/search">
               <img src="search.png" height={42} width={42} style={{ margin: '0.5rem' }} />
 
               <div className="navbar-item-inner-icon-wrapper flexbox">
@@ -61,7 +61,7 @@ function SideBar() {
             </a>
           </li>
           <li className="navbar-item flexbox-left">
-            <a className="navbar-item-inner flexbox-left" style={{ height: '3.7rem' }}>
+            <a className="navbar-item-inner flexbox-left" style={{ height: '3.7rem' }} href="/">
 
               <img src="home.png" height={42} width={42} style={{ margin: '0.5rem' }} />
               <div className="navbar-item-inner-icon-wrapper flexbox">
@@ -71,7 +71,7 @@ function SideBar() {
             </a>
           </li>
           <li className="navbar-item flexbox-left">
-            <a className="navbar-item-inner flexbox-left" style={{ height: '3.7rem' }}>
+            <a className="navbar-item-inner flexbox-left" style={{ height: '3.7rem' }} href="/shopall">
 
               <img src="shopping-bag.png" height={42} width={42} style={{ margin: '0.5rem' }} />
               <div className="navbar-item-inner-icon-wrapper flexbox">
@@ -91,7 +91,7 @@ function SideBar() {
             </a>
           </li>
           <li className="navbar-item flexbox-left">
-            <a className="navbar-item-inner flexbox-left" style={{ height: '3.7rem' }}>
+            <a className="navbar-item-inner flexbox-left" style={{ height: '3.7rem' }} href="/support">
 
               <img src="mechanism.png" height={42} width={42} style={{ margin: '0.5rem' }} />
               <div className="navbar-item-inner-icon-wrapper flexbox">
@@ -127,11 +127,12 @@ function SideBar() {
               <h3 style={{ width: '13rem' }}>Unitel India</h3>
             </li>
             <li><a style={{ color: 'wheat' }} className="menu__item" href="/">Home</a></li>
-            <li><a style={{ color: 'wheat' }} className="menu__item" href="#">About</a></li>
-            <li><a style={{ color: 'wheat' }} className="menu__item" href="#">Shop</a></li>
-            <li><a style={{ color: 'wheat' }} className="menu__item" href="#">Contact</a></li>
-            <li><a style={{ color: 'wheat' }} className="menu__item" href="#">Support</a></li>
-            <li><a style={{ color: 'wheat' }} className="menu__item" href="#">Gaming</a></li>
+            <li><a style={{ color: 'wheat' }} className="menu__item" href="/about">About</a></li>
+            <li><a style={{ color: 'wheat' }} className="menu__item" href="/shopall">Shop</a></li>
+            <li><a style={{ color: 'wheat' }} className="menu__item" href="/contact">Contact</a></li>
+            <li><a style={{ color: 'wheat' }} className="menu__item" href="/support">Support</a></li>
+            <li><a style={{ color: 'wheat' }} className="menu__item" href="/gaming">Gaming</a></li>
+            <li><a style={{ color: 'wheat' }} className="menu__item" href="/stores">Stores Locator</a></li>
 
 
 
