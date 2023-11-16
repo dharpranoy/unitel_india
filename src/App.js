@@ -5,6 +5,7 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import './App.css'
 import Contact from './components/Contact.jsx';
 import StoreLocator from './components/StoreLocator.jsx';
+import Shop from './components/Shop.jsx';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 
       <Route path="/contact" element={<Contact />} />
       <Route path="/stores" element={<StoreLocator />} />
+      <Route path="/shopall" element={<Shop />} />
     </Routes>
 
   );

@@ -17,34 +17,28 @@ function StoreLocator() {
             <div className="floating-stack">
               <dl>
                 <dt>A</dt>
-                <dd>Asansol, Burnpur</dd>
+                <dd style={{ fontWeight: 'bold', background: '#263238', fontSize: '1.3rem' }}>Asansol, Burnpur</dd>
                 <dd>HP World / Acer Mall / Asus Exclusive Store / Tally </dd>
+                <dd>1st Floor/ 2nd Floor, Arghya Commercial Complex, WB, 713304, Phone: +91 9832163213</dd>
 
                 <dt>B</dt>
-                <dd>Benin</dd>
-                <dd>Botswana</dd>
-                <dd>Burkina Faso</dd>
-                <dd>Burundi</dd>
+                <dd style={{ fontWeight: 'bold', background: '#263238', fontSize: '1.3rem' }}>Benachity, Durgapur</dd>
+                <dd>HP World</dd>
+                <dd>Ground Floor, Durga Market, Girja More, GT Road               West Bengal, 713301, Phone: +91 8657568691</dd>
 
                 <dt>C</dt>
-                <dd>Cabo Verde</dd>
-                <dd>Cameroon</dd>
-                <dd>Central African Republic</dd>
-                <dd>Chad</dd>
-                <dd>Comoros</dd>
-                <dd>Congo, Democratic Republic of the</dd>
-                <dd>Congo, Republic of the</dd>
-                <dd>Cote d'Ivoire</dd>
+                <dd style={{ fontWeight: 'bold', background: '#263238', fontSize: '1.3rem' }}>City Centre, Durgapur</dd>
+                <dd>Asus Mall - Exclusive Store</dd>
+                <dd>Najrul Sarani, Beside FITJEE Building, City Centre, Durgapur, WB 713216, Phone: +91 8016095965</dd>
 
                 <dt>D</dt>
-                <dd>Djibouti</dd>
+                <dd style={{ fontWeight: 'bold', background: '#263238', fontSize: '1.3rem' }}>Durga Market</dd>
 
-                <dt>E</dt>
-                <dd>Egypt</dd>
-                <dd>Equatorial Guinea</dd>
-                <dd>Eritrea</dd>
-                <dd>Eswatini (formerly Swaziland)</dd>
-                <dd>Ethiopia</dd>
+                <dd>HP World</dd>
+                <dd>Ground Floor, Durga Market, Girja More, GT Road, WB 713301, Phone: +91 8657568691</dd>
+                <dt >R</dt>
+                <dd style={{ fontWeight: 'bold', background: '#263238', fontSize: '1.3rem' }}>Raniganj</dd>
+                <dd>Loading ...</dd>
               </dl>
             </div>
           </div>
