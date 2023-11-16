@@ -37,7 +37,7 @@ function Topbar() {
                 <li><a href="/contact">Contact us</a>
                 </li>
                 <li><a href="#">About us</a></li>
-                <li><a href="#">Store locator</a></li>
+                <li><a href="/stores">Store locator</a></li>
                 <li><a href="#">Mouse & Keyboard</a></li>
                 <li><a href="#">Build Custom PC</a></li>
               </ul>
