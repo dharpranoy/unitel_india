@@ -11,7 +11,7 @@ function Card() {
             <div className="container1">
               <h6>Acer Swift 5</h6>
               <p style={{ fontFamily: 'sans-serif', fontSize: 'Medium', textAlign: 'justify' }}> (8GB RAM, 512GB SSD, Vega 8 Graphics, DOS)</p>
-              <p><span style={{ color: 'red' }}>Rs 39,999 &nbsp; &nbsp;</span><span style={{ color: 'grey' }}><strike>Rs 60,000</strike></span></p>
+              <p ><span style={{ color: 'red' }}>Rs 39,999 &nbsp; &nbsp;</span><span style={{ color: 'grey' }}><strike>Rs 60,000</strike></span></p>
             </div>
           </div>
         </div>
@@ -21,7 +21,7 @@ function Card() {
             <div className="container1">
               <h6>Asus Flip Book</h6>
               <p style={{ fontFamily: 'sans-serif', fontSize: 'Medium', textAlign: 'justify' }}> (16GB RAM, 1TB SSD, Silver, Windows 11 Home)</p>
-              <p><span style={{ color: 'red' }}>Rs 89,999 &nbsp; &nbsp;</span><span style={{ color: 'grey' }}><strike>Rs 1,20,000</strike></span></p>
+              <p  ><span style={{ color: 'red' }}>Rs 89,999 &nbsp; &nbsp;</span><span style={{ color: 'grey' }}><strike>Rs 99,000</strike></span></p>
 
             </div>
           </div>
