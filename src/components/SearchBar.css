@@ -22,7 +22,7 @@
     transition: all 0.3s ease-in-out;
 }
 .search-wrapper.active .input-holder {
-    width:550px;
+    width:500px;
     border-radius: 50px;
     background: rgba(0,0,0,0.5);
     transition: all .5s cubic-bezier(0.000, 0.105, 0.035, 1.570);

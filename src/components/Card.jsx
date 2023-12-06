@@ -11,7 +11,7 @@ function Card() {
             <div className="container1">
               <h6>Acer Swift 5</h6>
               <p style={{ fontFamily: 'sans-serif', fontSize: 'Medium', textAlign: 'justify' }}> (8GB RAM, 512GB SSD, Vega 8 Graphics, DOS)</p>
-              <p ><span style={{ color: 'red' }}>Rs 39,999 &nbsp; &nbsp;</span><span style={{ color: 'grey' }}><strike>Rs 60,000</strike></span></p>
+              <p ><span style={{ color: 'yellow' }}>Rs 39,999 &nbsp; &nbsp;</span><span style={{ color: 'grey' }}><strike>Rs 60,000</strike></span></p>
             </div>
           </div>
         </div>
@@ -21,7 +21,7 @@ function Card() {
             <div className="container1">
               <h6>Asus Flip Book</h6>
               <p style={{ fontFamily: 'sans-serif', fontSize: 'Medium', textAlign: 'justify' }}> (16GB RAM, 1TB SSD, Silver, Windows 11 Home)</p>
-              <p  ><span style={{ color: 'red' }}>Rs 89,999 &nbsp; &nbsp;</span><span style={{ color: 'grey' }}><strike>Rs 99,000</strike></span></p>
+              <p  ><span style={{ color: 'yellow' }}>Rs 89,999 &nbsp; &nbsp;</span><span style={{ color: 'grey' }}><strike>Rs 99,000</strike></span></p>
 
             </div>
           </div>
@@ -32,7 +32,7 @@ function Card() {
             <div className="container1">
               <h6>ASUS ROG Ally Ryzen Z1 Octa Core Extreme</h6>
               <p style={{ fontFamily: 'sans-serif', fontSize: 'Medium', textAlign: 'justify' }}> (16GB RAM, 512GB SSD, White, Windows 11 Home)</p>
-              <p><span style={{ color: 'red' }}>Rs 59,999 &nbsp; &nbsp;</span><span style={{ color: 'grey' }}><strike>Rs 81,000</strike></span></p>
+              <p><span style={{ color: 'yellow' }}>Rs 59,999 &nbsp; &nbsp;</span><span style={{ color: 'grey' }}><strike>Rs 81,000</strike></span></p>
 
             </div>
           </div>
@@ -43,7 +43,7 @@ function Card() {
             <div className="container1">
               <h6>HP Omen Gaming</h6>
               <p style={{ fontFamily: 'sans-serif', fontSize: 'Medium', textAlign: 'justify' }}> (16GB RAM, 512GB SSD, Black, Windows 11 Home)</p>
-              <p><span style={{ color: 'red' }}>Rs 69,999 &nbsp; &nbsp;</span><span style={{ color: 'grey' }}><strike>Rs 87,000</strike></span></p>
+              <p><span style={{ color: 'yellow' }}>Rs 69,999 &nbsp; &nbsp;</span><span style={{ color: 'grey' }}><strike>Rs 87,000</strike></span></p>
 
             </div>
           </div>

@@ -7,6 +7,7 @@ import SideBar from "./SideBar.jsx";
 import Footer from "./Footer.jsx";
 import './Carousel.css';
 import Card from "./Card.jsx";
+import './Shop.css';
 function Shop() {
 
 
@@ -64,12 +65,32 @@ function Shop() {
             ))}
           </Slider>
         </div>
-        {!isMobile ? <div style={{ paddingTop: '1rem' }}>
-          <img style={{ height: '90vh', objectFit: 'cover' }} src="sideoffer.webp" />
-        </div> : <></>}
 
       </div>
 
+      <div>
+        <nav className="slidemenu">
+
+          <input type="radio" name="slideItem" id="slide-item-1" className="slide-toggle" />
+          <label for="slide-item-1"><p className="icon">♬</p><span>Laptops</span></label>
+
+          <input type="radio" name="slideItem" id="slide-item-2" className="slide-toggle" />
+          <label for="slide-item-2"><p className="icon">★</p><span>Commercial</span></label>
+
+          <input type="radio" name="slideItem" id="slide-item-3" className="slide-toggle" />
+          <label for="slide-item-3"><p className="icon">✈</p><span>Accessories</span></label>
+
+          <input type="radio" name="slideItem" id="slide-item-4" className="slide-toggle" />
+          <label for="slide-item-4"><p className="icon">✎</p><span>Blog</span></label>
+
+          <div className="clear"></div>
+
+          <div className="slider">
+            <div className="bar"></div>
+          </div>
+
+        </nav>
+      </div>
 
 
 
