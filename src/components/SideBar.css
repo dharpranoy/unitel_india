@@ -57,7 +57,7 @@ html, body {
 }
 
 .mobilebox > li > a > span {
-    color: white;
+    color: rgb(23, 23, 44, 0.779);
 }
 
 
@@ -259,7 +259,7 @@ select {
     width: 5em;
     height: 100vh;
     position: fixed;
-    background-color: #f0f0f0 ;
+    background-color: rgb(11, 12, 38) ;
     transition: width .35s cubic-bezier(var(--transition-main), 1);
     overflow-y: auto;
     overflow-x: hidden;
@@ -336,6 +336,7 @@ select {
     transition: all .35s cubic-bezier(var(--transition-main), 1);
     overflow: hidden;
     opacity: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 .link-text1 {
     margin: 0;

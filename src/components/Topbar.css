@@ -28,7 +28,8 @@ nav.primary-navigation.ul {
 } 
 nav.primary-navigation li a {
   color:  #ffffda ;
-  font-size: 13px;
+  font-size: 19px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 nav.primary-navigation li a:hover {

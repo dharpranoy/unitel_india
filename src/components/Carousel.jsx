@@ -60,7 +60,7 @@ function Carousel() {
           </Slider>
         </div>
         {!isMobile ? <div style={{ paddingTop: '1rem' }}>
-          <img style={{ height: '90vh', objectFit: 'cover' }} src="sideoffer.webp" />
+          <img style={{ height: '60vh', objectFit: 'cover',cursor:'pointer' }} src="sideoffer.webp" />
         </div> : <></>}
 
       </div>

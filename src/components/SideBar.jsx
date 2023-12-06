@@ -77,7 +77,7 @@ function SideBar() {
               <div className="navbar-item-inner-icon-wrapper flexbox">
                 <ion-icon name="folder-open-outline"></ion-icon>
               </div>
-              <span className="link-text">Shop</span>
+              <span className="link-text">Products</span>
             </a>
           </li>
           <li className="navbar-item flexbox-left">
