@@ -14,7 +14,7 @@ function SearchBar() {
           <FontAwesomeIcon icon={faSearch} />
         </div>
         <div style={{ backgroundColor: ' #dddddd ' }} className="input-holder">
-          <input type="text" style={{ backgroundColor: '#dddddd' }} className="search-input" placeholder="Type to search" />
+          <input type="text" style={{ backgroundColor: '#dddddd' }} autoCapitalize="none" className="search-input" placeholder="Type to search" />
         </div>
       </div>
     </>

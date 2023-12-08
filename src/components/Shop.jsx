@@ -55,7 +55,7 @@ function Shop() {
       <Topbar />
       <SideBar />
 
-      <div className="banner-outer" >
+      <div className="banner-outer" style={{ paddingTop:'1rem' }} >
         <div className="banner-inner" >
           <Slider {...settings}>
             {images.map((image, index) => (
@@ -65,23 +65,25 @@ function Shop() {
             ))}
           </Slider>
         </div>
-
+        {!isMobile ? <div style={{ paddingTop: '1rem' }}>
+          <img style={{ height: '60vh', objectFit: 'cover',cursor:'pointer' }} src="sideoffer.webp" />
+        </div> : <></>}
       </div>
 
       <div>
         <nav className="slidemenu">
 
           <input type="radio" name="slideItem" id="slide-item-1" className="slide-toggle" />
-          <label for="slide-item-1"><p className="icon">♬</p><span>Laptops</span></label>
+          <label for="slide-item-1"><p style={{ fontSize:'2rem' }} className="icon">💻</p><span>Laptops</span></label>
 
           <input type="radio" name="slideItem" id="slide-item-2" className="slide-toggle" />
-          <label for="slide-item-2"><p className="icon">★</p><span>Commercial</span></label>
+          <label for="slide-item-2"><p style={{ fontSize:'2rem' }} className="icon">🖨️</p><span>Scanners & Printers</span></label>
 
           <input type="radio" name="slideItem" id="slide-item-3" className="slide-toggle" />
-          <label for="slide-item-3"><p className="icon">✈</p><span>Accessories</span></label>
+          <label for="slide-item-3"><p style={{ fontSize:'2rem' }} className="icon">🔌</p><span>Accessories</span></label>
 
           <input type="radio" name="slideItem" id="slide-item-4" className="slide-toggle" />
-          <label for="slide-item-4"><p className="icon">✎</p><span>Blog</span></label>
+          <label for="slide-item-4"><p style={{ fontSize:'2rem' }} className="icon">🏢</p><span>Commercial</span></label>
 
           <div className="clear"></div>
 

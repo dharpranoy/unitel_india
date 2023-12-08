@@ -26,7 +26,7 @@
   display: block;
   float: left;
   color: white;
-  opacity: 0.2;
+  opacity: 0.6;
 
 }
 
@@ -46,7 +46,7 @@
 
 .slidemenu label .icon{
   font-size: 20px;
-  border: solid 2px white;
+  border: solid 2px rgb(255, 238, 0);
   text-align: center;
   height: 50px;
   width: 50px;
@@ -70,7 +70,7 @@
 .slider .bar{
   width: 25%;
   height: 5px;
-  background: #333;
+  background: rgb(125, 117, 1);
   border-radius: 5px;
 }
 

@@ -36,10 +36,10 @@ function Home() {
       <SideBar />
       <Topbar />
       <Carousel />
-      <div style={componentStyle}>
+      {/* <div style={componentStyle}>
         <img src="midoffer.webp" style={{ width: '97.8%' }} />
-      </div>
-      <Featured text="Best selling laptops" />
+      </div> */}
+      <Featured  text="Best selling laptops" />
       <div>
         <Card />
       </div>
