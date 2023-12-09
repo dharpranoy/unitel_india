@@ -70,7 +70,7 @@
 .slider .bar{
   width: 25%;
   height: 5px;
-  background: rgb(0, 255, 30);
+  background: rgb(152, 172, 0);
   border-radius: 5px;
 }
 
@@ -93,3 +93,19 @@
 .slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left: 25%; }
 .slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 50%; }
 .slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 75%; }
+
+
+@media screen and (max-width:900px) {
+  .slidemenu label span{
+    display: none;
+  }
+  .slidemenu {
+    max-width: 94%;
+  }
+  .slidemenu > label {
+    height: 4rem;
+    padding: 1rem;
+    padding-bottom: 4rem;
+    background-color: #666;
+  }
+}
