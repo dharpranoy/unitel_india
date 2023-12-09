@@ -128,11 +128,11 @@ function SideBar() {
             </li>
             <li><a style={{ color: 'wheat' }} className="menu__item" href="/">Home</a></li>
             <li><a style={{ color: 'wheat' }} className="menu__item" href="/about">About</a></li>
-            <li><a style={{ color: 'wheat' }} className="menu__item" href="/shopall">Shop</a></li>
-            <li><a style={{ color: 'wheat' }} className="menu__item" href="/contact">Contact</a></li>
-            <li><a style={{ color: 'wheat' }} className="menu__item" href="/support">Support</a></li>
+            <li><a style={{ color: 'wheat' }} className="menu__item" href="/shopall">Products</a></li>
+            {/* <li><a style={{ color: 'wheat' }} className="menu__item" href="/contact">Contact</a></li> */}
             <li><a style={{ color: 'wheat' }} className="menu__item" href="/gaming">Gaming</a></li>
-            <li><a style={{ color: 'wheat' }} className="menu__item" href="/stores">Stores Locator</a></li>
+            <li><a style={{ color: 'wheat' }} className="menu__item" href="/stores">Contact & Stores Locator</a></li>
+            <li><a style={{ color: 'wheat' }} className="menu__item" href="/support">Support</a></li>
 
 
 

@@ -13,6 +13,10 @@ function Shop() {
 
   const images = [
     'top_shop.jpg',
+    'ban1.png',
+    'ban2.png',
+    'ban3.png',
+    'ban4.jpg'
   ];
 
 
@@ -66,7 +70,7 @@ function Shop() {
           </Slider>
         </div>
         {!isMobile ? <div style={{ paddingTop: '1rem' }}>
-          <img style={{ height: '60vh', objectFit: 'cover',cursor:'pointer' }} src="sideoffer.webp" />
+          <img style={{ height: '60vh', objectFit: 'cover',cursor:'pointer' }} src="sideoffer2.jpeg" />
         </div> : <></>}
       </div>
 

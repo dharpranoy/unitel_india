@@ -143,9 +143,12 @@
         padding-right: 3rem;
     }
     .search-wrapper {
-        padding-left:10rem ;
+        padding-left:8.5rem ;
         padding-right: 0;
         width: 120vw;
         margin-left:3rem ;
+    }
+    .search-wrapper.active .input-holder {
+        width: 80%;
     }
 }

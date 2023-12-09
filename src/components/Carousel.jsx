@@ -8,9 +8,9 @@ import './Carousel.css';
 function Carousel() {
 
   const images = [
-    'ban1.webp',
-    'ban2.webp',
-    'ban3.webp',
+    'ban1.png',
+    'ban2.png',
+    'ban3.png',
     'ban4.jpg'
   ];
 
@@ -60,7 +60,7 @@ function Carousel() {
           </Slider>
         </div>
         {!isMobile ? <div style={{ paddingTop: '1rem' }}>
-          <img style={{ height: '60vh', objectFit: 'cover',cursor:'pointer' }} src="sideoffer.webp" />
+          <img style={{ height: '60vh', objectFit: 'cover',cursor:'pointer' }} src="sideoffer1.jpeg" />
         </div> : <></>}
 
       </div>
