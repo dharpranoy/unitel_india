@@ -101,7 +101,7 @@ function Shop() {
 
 
       <Featured text="laptops at best Deals" />
-      <Card />
+      <Card bar={"All"} />
       <Footer />
     </>
   )

@@ -41,10 +41,10 @@ function Home() {
       </div> */}
       <Featured  text="Best selling laptops" />
       <div>
-        <Card />
+        <Card bar={'F2'}/>
       </div>
       <Featured text="Diwali Offers on Student laptops" /><div>
-        <Card />
+        <Card bar={'F1'}/>
       </div>
       <Footer />
     </>
