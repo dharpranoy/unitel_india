@@ -123,7 +123,7 @@ width: 14rem;
 }
 .container1 {
   width: 10rem;
-  height: auto;
+  height: 5rem; 
 }
 .container1 > p {
   font-size: small;  text-overflow: ellipsis;

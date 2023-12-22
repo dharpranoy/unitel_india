@@ -34,6 +34,7 @@ function Shop() {
 
 
   const [isMobile, setIsMobile] = useState(false);
+  const [menuItem, setMenuItem] = useState('Laptop');
 
   useEffect(() => {
     const handleResize = () => {
@@ -50,8 +51,22 @@ function Shop() {
   }, []);
 
 
+  const [showGif, setShowGif] = useState(true);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setShowGif(false);
+    }, 1000); // Hides the GIF after 3 seconds (3000 milliseconds)
+
+    return () => clearTimeout(timeout);
+  }, []);
 
 
+  const hideGifAfterDelay = () => {
+    setTimeout(() => {
+      setShowGif(false);
+    }, 500); // Hides the GIF after 3 seconds (3000 milliseconds)
+  };
 
 
   return (
@@ -59,7 +74,7 @@ function Shop() {
       <Topbar />
       <SideBar />
 
-      <div className="banner-outer" style={{ paddingTop:'1rem' }} >
+      {/* <div className="banner-outer" style={{ paddingTop: '1rem' }} >
         <div className="banner-inner" >
           <Slider {...settings}>
             {images.map((image, index) => (
@@ -70,24 +85,24 @@ function Shop() {
           </Slider>
         </div>
         {!isMobile ? <div style={{ paddingTop: '1rem' }}>
-          <img style={{ height: '60vh', objectFit: 'cover',cursor:'pointer' }} src="sideoffer2.jpeg" />
+          <img style={{ height: '60vh', objectFit: 'cover', cursor: 'pointer' }} src="sideoffer2.jpeg" />
         </div> : <></>}
-      </div>
+      </div>*/}
 
       <div>
         <nav className="slidemenu">
 
           <input type="radio" name="slideItem" id="slide-item-1" className="slide-toggle" />
-          <label for="slide-item-1"><p style={{ fontSize:'2rem' }} className="icon">💻</p><span>Laptops</span></label>
+          <label onClick={() => { setMenuItem('Laptop'); setShowGif(true); hideGifAfterDelay() }} for="slide-item-1"><p style={{ fontSize: '2rem' }} className="icon">💻</p><span>Laptops</span></label>
 
           <input type="radio" name="slideItem" id="slide-item-2" className="slide-toggle" />
-          <label for="slide-item-2"><p style={{ fontSize:'2rem' }} className="icon">🖨️</p><span>Scanners & Printers</span></label>
+          <label onClick={() => { setMenuItem('Printer'); setShowGif(true); hideGifAfterDelay() }} for="slide-item-2"><p style={{ fontSize: '2rem' }} className="icon">🖨️</p><span>Scanners & Printers</span></label>
 
           <input type="radio" name="slideItem" id="slide-item-3" className="slide-toggle" />
-          <label for="slide-item-3"><p style={{ fontSize:'2rem' }} className="icon">🔌</p><span>Accessories</span></label>
+          <label onClick={() => { setMenuItem('Accessories'); setShowGif(true); hideGifAfterDelay() }} for="slide-item-3"><p style={{ fontSize: '2rem' }} className="icon">🔌</p><span>Accessories</span></label>
 
           <input type="radio" name="slideItem" id="slide-item-4" className="slide-toggle" />
-          <label for="slide-item-4"><p style={{ fontSize:'2rem' }} className="icon">🏢</p><span>Commercial</span></label>
+          <label onClick={() => { setMenuItem('All'); setShowGif(true); hideGifAfterDelay() }} for="slide-item-4"><p style={{ fontSize: '2rem' }} className="icon">🏢</p><span>Commercial</span></label>
 
           <div className="clear"></div>
 
@@ -98,10 +113,15 @@ function Shop() {
         </nav>
       </div>
 
-
-
       <Featured text="laptops at best Deals" />
-      <Card bar={"All"} />
+      <div style={{ minHeight: '32rem' }}>
+
+        {showGif &&
+          <div style={{ display: 'flex', justifyContent: 'center' }} ><img style={{ alignContent: 'center' }} src={'loading.gif'} alt="Your GIF" />
+          </div>
+        }
+        {!showGif && <Card bar={menuItem} />}
+      </div>
       <Footer />
     </>
   )
