@@ -18,7 +18,7 @@ function GameTheme() {
               <div className="row">
                 <div className="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
                   <div className="page-title  home text-center">
-                    <span className="heading-page" style={{ color: 'red' }}> Gaming Section                    </span>
+                    <span className="heading-page" style={{ color: 'red' }}> Enter The Battle With Unitel                    </span>
                   </div>
 
                   <div className="hexagon-menu clear">
@@ -159,7 +159,7 @@ function GameTheme() {
                         <div></div>
                         <div></div>
                       </div>
-                      <a className="hex-content">
+                      <a className="hex-content" href="/store">
                         <span className="hex-content-inner">
                           <span className="icon">
                             <i className="fa fa-map-signs"></i>

@@ -12,6 +12,7 @@ nav.primary-navigation {
   display: flex;
   justify-content: space-between;
   margin-left: 7rem;
+  margin-bottom: 1.4rem;
 }
 nav.primary-navigation ul li {
   list-style: none;

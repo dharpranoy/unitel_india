@@ -28,7 +28,7 @@ function Contact() {
       <SideBar />
       <Topbar />
       <div id="container">
-        <h1>&bull; Keep in Touch &bull;</h1>
+        <h1>&bull; Contact Us &bull;</h1>
         <div className="underline">
         </div>
         <div style={{ display: 'flex', justifyContent: 'center', margin: '2rem' }}>

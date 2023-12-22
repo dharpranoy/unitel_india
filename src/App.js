@@ -6,6 +6,7 @@ import './App.css'
 import Contact from './components/Contact.jsx';
 import StoreLocator from './components/StoreLocator.jsx';
 import Shop from './components/Shop.jsx';
+import ProductDetails from './components/ProductDetails.jsx';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/stores" element={<StoreLocator />} />
       <Route path="/shopall" element={<Shop />} />
+      <Route path="/productDetails" element={<ProductDetails />} />
     </Routes>
 
   );

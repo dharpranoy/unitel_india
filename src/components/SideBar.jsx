@@ -52,7 +52,7 @@ function SideBar() {
           <li className="navbar-item flexbox-left">
 
             <a className="navbar-item-inner flexbox-left" style={{ height: '3.7rem' }} href="/search">
-              <img src="search.png" height={42} width={42} style={{ margin: '0.5rem' }} />
+              <img src="search.png" height={40} width={40} style={{ margin: '0.5rem' }} />
 
               <div className="navbar-item-inner-icon-wrapper flexbox">
                 <ion-icon name="search-outline"></ion-icon>
@@ -83,7 +83,7 @@ function SideBar() {
           <li className="navbar-item flexbox-left">
             <a className="navbar-item-inner flexbox-left" href="/gaming" style={{ height: '3.7rem' }}>
 
-              <img src="gamepad.png" height={42} width={42} style={{ margin: '0.5rem' }} />
+              <img src="gamepad.png" height={44} width={44} style={{ margin: '0.5rem' }} />
               <div className="navbar-item-inner-icon-wrapper flexbox">
                 <ion-icon name="pie-chart-outline"></ion-icon>
               </div>
@@ -93,7 +93,7 @@ function SideBar() {
           <li className="navbar-item flexbox-left">
             <a className="navbar-item-inner flexbox-left" style={{ height: '3.7rem' }} href="/support">
 
-              <img src="mechanism.png" height={42} width={42} style={{ margin: '0.5rem' }} />
+              <img src="support.png" height={42} width={42} style={{ margin: '0.5rem' }} />
               <div className="navbar-item-inner-icon-wrapper flexbox">
                 <ion-icon name="chatbubbles-outline"></ion-icon>
               </div>
