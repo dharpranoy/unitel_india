@@ -58,8 +58,6 @@
   margin:0;
 }
 #whychoose {
-  display: auto;
-  width: auto;
-  overflow-x: scroll;
-} 
+  display: none;
+  } 
 }
