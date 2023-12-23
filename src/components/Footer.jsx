@@ -12,19 +12,19 @@ function Footer() {
                 <h3>Services</h3>
                 <ul>
                   <li><a href="/stores">Laptops</a></li>
-                  
+
                   <li><a href="/stores">All-In-Ones</a></li>
                   <li><a href="/stores">Printers</a></li>
                   <li><a href="/stores">Accessories</a></li>
-                  
+
                 </ul>
               </div>
               <div className="col-sm-4 col-md-3 item">
                 <h3>About</h3>
                 <ul>
-                  <li><a href="#">Company</a></li>
-                  <li><a href="#">Founder</a></li>
-                  <li><a href="#">Legacy</a></li>
+                  <li><a href="/about">Company</a></li>
+                  <li><a href="/about">Founder</a></li>
+                  <li><a href="/about">Legacy</a></li>
                 </ul>
               </div>
               <div className="col-sm-4 col-md-3 item">

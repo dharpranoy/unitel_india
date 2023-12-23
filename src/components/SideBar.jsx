@@ -51,7 +51,7 @@ function SideBar() {
           </li>
           <li className="navbar-item flexbox-left">
 
-            <a className="navbar-item-inner flexbox-left" style={{ height: '3.7rem' }} href="/search">
+            <a className="navbar-item-inner flexbox-left" style={{ height: '3.7rem' }} href="/productDetails">
               <img src="search.png" height={40} width={40} style={{ margin: '0.5rem' }} />
 
               <div className="navbar-item-inner-icon-wrapper flexbox">

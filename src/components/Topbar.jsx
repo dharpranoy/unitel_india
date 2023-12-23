@@ -34,11 +34,11 @@ function Topbar() {
           <div>
             <nav role="navigation" className="primary-navigation">
               <ul>
-                
-                <li><a href="#">About us</a></li>
+
+                <li><a href="/about">About us</a></li>
                 <li><a href="/stores">Contact & Store locator</a></li>
                 <li><a href="#">All-in-one</a></li>
-                
+
               </ul>
             </nav>
           </div> : <></>}

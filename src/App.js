@@ -1,5 +1,6 @@
 import GameTheme from './components/GameTheme.jsx';
 import Home from './components/Home.jsx';
+import About from './components/About.jsx';
 import Office from './components/Office.jsx';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import './App.css'
@@ -20,6 +21,7 @@ function App() {
       <Route path="/stores" element={<StoreLocator />} />
       <Route path="/shopall" element={<Shop />} />
       <Route path="/productDetails" element={<ProductDetails />} />
+      <Route path="/about" element={<About />} />
     </Routes>
 
   );
