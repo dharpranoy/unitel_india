@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Slider from "react-slick";
 import 'font-awesome/css/font-awesome.min.css';
 import Featured from './Featured.jsx';

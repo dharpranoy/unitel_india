@@ -11,11 +11,11 @@ function Footer() {
               <div className="col-sm-4 col-md-3 item">
                 <h3>Services</h3>
                 <ul>
-                  <li><a href="/stores">Laptops</a></li>
+                  <li><a href="/shopall">Laptops</a></li>
 
-                  <li><a href="/stores">All-In-Ones</a></li>
-                  <li><a href="/stores">Printers</a></li>
-                  <li><a href="/stores">Accessories</a></li>
+                  <li><a href="/shopall">All-In-Ones</a></li>
+                  <li><a href="/shopall">Printers</a></li>
+                  <li><a href="/shopall">Accessories</a></li>
 
                 </ul>
               </div>
@@ -37,7 +37,7 @@ function Footer() {
                   <li><a href="#">Unitel emall, Arghya Commercial Plaza, Burnpur Road, Asansol - 713301</a></li>
                 </ul>
               </div>
-              <div className="col-lg-3 item social"><a href="#"><i className="icon ion-social-facebook"></i></a><a href="#"><i className="icon ion-social-twitter"></i></a><a href="#"><i className="icon ion-social-snapchat"></i></a><a href="#"><i className="icon ion-social-instagram"></i></a>
+              <div className="col-lg-3 item social"><a href="https://www.facebook.com/unitelindia?mibextid=vk8aRt"><i className="icon ion-social-facebook"></i></a><a href="https://www.instagram.com/unitelindia?igsh=MTIwOHY0cHdqYWdtYw=="><i className="icon ion-social-instagram"></i></a>
                 <p className="copyright">Unitel India © 2023</p>
                 <h3>Designed by <a href="https://smalltowntalks.com">SmallTownTalks</a></h3>
               </div>

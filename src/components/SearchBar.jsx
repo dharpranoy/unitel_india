@@ -3,14 +3,14 @@ import 'font-awesome/css/font-awesome.min.css';
 import './SearchBar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import { Navigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Papa from 'papaparse';
 
 
 function SearchBar() {
   const [searchText,setSearchText] = useState('');
   const [searchResult,setSearchResult] = useState(null);
-  
+  const navigate = useNavigate();
 
   const handleSearch = () => {
    
@@ -24,11 +24,19 @@ function SearchBar() {
           dynamicTyping: true, // Auto-detects the data types
           skipEmptyLines: true,
         });
-        const result = parsedData.data.filter(row => row.Title.toLowerCase().includes(searchText.toLowerCase()));
+        const result = parsedData.data.filter(row => {
+          // Convert both title and search text to lowercase and split into words
+          const titleWords = row.Title.toLowerCase().split(' ');
+          const searchWords = searchText.toLowerCase().split(' ');
+        
+          // Check if there's any intersection between searchWords and titleWords
+          return searchWords.some(word => titleWords.includes(word));
+        });
         setSearchResult(result);
         console.log(result)
         
-        return (<Navigate to="/productDetails" state={{ searchResult }} />);
+        navigate('/productDetails', { state: { searchResult: result } });
+        
         
       } catch (error) {
         alert('ERR');

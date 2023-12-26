@@ -96,7 +96,7 @@ function GameTheme() {
                         <div></div>
                         <div></div>
                       </div>
-                      <a className="hex-content">
+                      <a className="hex-content" href="/shopall">
                         <span className="hex-content-inner">
                           <span className="icon">
                             <i className="fa fa-laptop"></i>
@@ -138,7 +138,7 @@ function GameTheme() {
                         <div></div>
                         <div></div>
                       </div>
-                      <a className="hex-content">
+                      <a className="hex-content" href="/">
                         <span className="hex-content-inner">
                           <span className="icon">
                             <i className="fa fa-clipboard"></i>
@@ -159,7 +159,7 @@ function GameTheme() {
                         <div></div>
                         <div></div>
                       </div>
-                      <a className="hex-content" href="/store">
+                      <a className="hex-content" href="/stores">
                         <span className="hex-content-inner">
                           <span className="icon">
                             <i className="fa fa-map-signs"></i>
