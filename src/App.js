@@ -8,6 +8,7 @@ import Contact from './components/Contact.jsx';
 import StoreLocator from './components/StoreLocator.jsx';
 import Shop from './components/Shop.jsx';
 import ProductDetails from './components/ProductDetails.jsx';
+import Support from './components/Support.jsx';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path="/shopall" element={<Shop />} />
       <Route path="/productDetails" element={<ProductDetails />} />
       <Route path="/about" element={<About />} />
+      <Route path="/support" element={<Support />} />
     </Routes>
 
   );
