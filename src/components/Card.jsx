@@ -2,11 +2,19 @@ import React, { useState, useEffect } from "react";
 import 'font-awesome/css/font-awesome.min.css';
 import './Card.css';
 import Papa from 'papaparse';
+import ProductModal from "./ProductModal.jsx";
 function Card(props) {
 
   const [csvData, setCsvData] = useState([]);
-  const [randomRows, setRandomRows] = useState([]);
+  const [showModal, setShowModal] = useState(false);
+  const [selectedRow, setSelectedRow] = useState([]);
+  const handleShowModal = () => {
+    setShowModal(true);
+  };
 
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -34,7 +42,7 @@ function Card(props) {
 
         {csvData.map((row, rowIndex) => (
           row['Target'] == props.bar || props.bar == "All" || props.bar == row.Category ? (
-            <div className="card" data-label={`${row.Discount}% Off`} key={rowIndex}>
+            <div className="card" data-label={`${row.Discount}% Off`} key={rowIndex} onClick={handleShowModal}>
 
               <div className="card-container" style={{ padding: '1rem' }}>
                 <img src={row.Image_path} alt="Avatar" />
@@ -44,7 +52,10 @@ function Card(props) {
                   <p ><span style={{ color: 'yellow' }}>Rs. {row.Price} &nbsp; &nbsp;</span><span style={{ color: 'grey' }}><strike>Rs. {row.Compare_to}</strike></span></p>
                 </div>
               </div>
-            </div>) : <>
+            </div>
+
+          ) : <>
+
 
           </>
 

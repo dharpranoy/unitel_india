@@ -62,7 +62,7 @@ function ProductDetails(props) {
                                 paddingLeft: '26%'
                             }}
                         >
-                            <img height='300' width='500' src="no-product.png" alt="No Product Found" />
+                            <img height='300' width='500' src="no-product.png" />
                         </div>
                     ) : <></>}
 

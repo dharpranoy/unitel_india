@@ -15,6 +15,16 @@ function Support() {
         <>
             <Topbar />
             <SideBar />
+            <div
+                style={{
+                    display: 'flex',
+                    justifyContent: 'center', // Horizontally center
+                    alignItems: 'center', // Vertically center
+                }}
+            >
+                <img height='300' width='300' src="under.png" alt="Under Construction" />
+            </div>
+
             <Footer />
         </>
     )

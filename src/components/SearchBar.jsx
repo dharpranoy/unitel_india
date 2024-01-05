@@ -12,7 +12,9 @@ function SearchBar() {
   const [searchResult, setSearchResult] = useState(null);
   const navigate = useNavigate();
 
-  const handleSearch = () => {
+  const handleSearch = (event) => {
+
+    event.preventDefault();
 
     const fetchData = async () => {
 
@@ -51,17 +53,16 @@ function SearchBar() {
   return (
     <>
       <div className="search-wrapper active">
-        <div id="iconf" onClick={handleSearch}>
-          <FontAwesomeIcon icon={faSearch} />
-        </div>
-        <div style={{ backgroundColor: ' #dddddd ' }} className="input-holder">
-          <input
-            type="text"
-            value={searchText}
-            onChange={(e) => setSearchText(e.target.value)}
-            style={{ backgroundColor: '#dddddd' }} autoCapitalize="none" className="search-input" placeholder="Type to search" />
-        </div>
+        <form onSubmit={handleSearch}>
+          <div style={{ backgroundColor: ' #dddddd ' }} className="input-holder">
+            <input
 
+              type="text"
+              value={searchText}
+              onChange={(e) => setSearchText(e.target.value)}
+              style={{ backgroundColor: '#dddddd' }} autoCapitalize="none" className="search-input" placeholder="Type to search" />
+          </div>
+        </form>
       </div>
     </>
   )

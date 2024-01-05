@@ -3,11 +3,7 @@
 }
 #iconf {
     
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.3rem;
-    border-radius: 4rem;
-    transition: 0.4s;
+        transition: 0.4s;
 }
 #iconf:hover{
     background-color: rgba(227, 223, 223, 0.406);
@@ -39,7 +35,7 @@
     transition: all 0.3s ease-in-out;
 }
 .search-wrapper.active .input-holder {
-    width:500px;
+    width:550px;
     border-radius: 50px;
     background: rgba(0,0,0,0.5);
     transition: all .5s cubic-bezier(0.000, 0.105, 0.035, 1.570);

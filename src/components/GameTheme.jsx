@@ -6,6 +6,16 @@ import 'font-awesome/css/font-awesome.min.css';
 function GameTheme() {
   return (
     <>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center', // Horizontally center
+          alignItems: 'center', // Vertically center
+        }}
+      >
+        <img height='300' width='300' src="under.png" alt="Under Construction" />
+      </div>
+
       <main className="site-wrapper">
         <div className="pt-table desktop-768">
           <div className="pt-tablecell page-home relative" style={{
@@ -176,6 +186,7 @@ function GameTheme() {
           </div>
         </div>
       </main>
+
     </>
   )
 }
