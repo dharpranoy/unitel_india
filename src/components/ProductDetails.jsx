@@ -59,10 +59,10 @@ function ProductDetails(props) {
                                 display: 'flex',
                                 justifyContent: 'center', // Horizontally center
                                 alignItems: 'center', // Vertically center
-                                paddingLeft: '26%'
+                                paddingLeft: '36%'
                             }}
                         >
-                            <img height='300' width='500' src="no-product.png" />
+                            <img height='200' width='330' src="no-product.png" />
                         </div>
                     ) : <></>}
 
