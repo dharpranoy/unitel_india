@@ -53,7 +53,10 @@ function SearchBar() {
   return (
     <>
       <div className="search-wrapper active">
-        <form onSubmit={handleSearch}>
+        <div id="iconf" onClick={handleSearch}>
+          <FontAwesomeIcon icon={faSearch} />
+        </div>
+        <form style={{ margin: 0, padding: 0 }} onSubmit={handleSearch}>
           <div style={{ backgroundColor: ' #dddddd ' }} className="input-holder">
             <input
 
